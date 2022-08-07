@@ -1,0 +1,364 @@
+/* Цвет основного текста #212121 */
+
+/* Цвет второстепенного текста  #757575; */
+
+/* шрифт лого Raleway. цвета лого #2196F3 и #000000 */
+
+/* акцент #2196F3 */
+
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #2F303A;
+    --white-text: #ffffff;
+    --button-filters-bg: #F5F4FA;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    width: 1600px;
+}
+
+body p {
+    color: var(--primary-text-color);
+}
+
+
+.header {
+    background-color: var(--primary-bg-color);
+    
+}
+
+
+
+/* Logo */
+
+.header-logo {
+    color: #000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+  
+}
+.accent-logo {
+    color: var(--accent-color);
+}
+
+.page-header a {
+    text-decoration: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+
+}
+
+.page-header .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav li,
+.contacts-nav li {
+    list-style: none;
+}
+
+
+/* Contacts nav */
+
+.contacts-nav a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+
+.contacts-nav .link {
+    color: var(--primary-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--secondary-bg-color);
+    width: 1600px;
+    height: 600px;
+    
+}
+
+.hero-title {
+    color: var(--white-text);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;  
+
+
+   
+}
+
+/* Button */
+
+.button {
+    cursor: pointer;
+    color: var(--white-text);
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+
+
+    letter-spacing: 0.06em;
+    width: 216px;
+    height: 50px;
+}
+
+
+.button-filter {
+    cursor: pointer;
+    background-color: var(--button-filters-bg);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: 0;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+    background-color: var(--accent-color);
+    color: var(--white-text);
+    
+}
+
+.portfolio {
+    color: var(--title-text-color);
+}
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.feature-list .text {
+    
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+}
+
+.feature-list li {
+    list-style: none;
+}
+
+/* Work List */
+
+.work-list li {
+    list-style: none;
+}
+
+/* Staff List */
+
+.team {
+    background-color: var(--button-filters-bg);
+}
+
+.staff-list li {
+    list-style: none;
+}
+
+.staff-name {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+    
+    
+    letter-spacing: 0.03em;
+}
+
+.staff-list .text {
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+    
+    
+    letter-spacing: 0.03em;
+}
+
+
+
+
+
+/* Footer */
+
+.footer-logo {
+    color: var(--white-text);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+}
+
+.page-footer {
+    background-color: var(--secondary-bg-color);
+    
+}
+
+.footer-nav .email
+.footer-nav .phone {
+    color: var(--footer-contacts-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+   
+    
+
+}
+
+.footer-nav a {
+    text-decoration: none;
+    
+}
+
+.footer-nav li {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.footer-nav .map {
+    color: var(--white-text);
+}
+
+.footer-nav .phone,
+.footer-nav .email {
+    color: var(--footer-contacts-color);
+}
+
+.filter-list li {
+    list-style: none;
+
+}
+
+.project-list li {
+    list-style: none;
+}
+
+.project-list a {
+    text-decoration: none;
+    
+}
+
+.project-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+}
+
+.project-text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+}
+
+.page-footer a {
+    text-decoration: none;
+}
+
+.page-footer {
+    height: 252px;
+}
+
+.address {
+    font-style: normal;
+}
+
+.footer-nav .map:hover,
+.footer-nav .map:focus {
+    color: var(--accent-color);
+}
+
+.footer-nav .email:hover,
+.footer-nav .email:focus {
+    color: var(--accent-color);
+}
+
+.footer-nav .phone:hover,
+.footer-nav .phone:focus {
+    color: var(--accent-color);
+}
