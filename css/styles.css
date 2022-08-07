@@ -277,8 +277,12 @@ body p {
     margin-bottom: 50px;
 }
 
-.section:not(:section.team) {
+.section {
     margin-bottom: 94px;
+}
+
+.section.team {
+    margin-bottom: 0;
 }
 
 
