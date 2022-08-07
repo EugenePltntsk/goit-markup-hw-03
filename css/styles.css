@@ -277,9 +277,10 @@ body p {
     margin-bottom: 50px;
 }
 
-.section {
+.section:not(:section.team) {
     margin-bottom: 94px;
 }
+
 
  
 
@@ -316,6 +317,7 @@ body p {
 
 .team {
     background-color: var(--button-filters-bg);
+    padding-bottom: 94px;
 }
 
 .staff-list li {
