@@ -367,6 +367,11 @@ body p {
 
 }
 
+.filter-list {
+    margin-top: 94px;
+    margin-bottom: 34px;
+}
+
 .project-list li {
     list-style: none;
 }
@@ -376,6 +381,11 @@ body p {
     
 }
 
+/* .project-item {
+    display: inline-block;
+    margin: 0;
+} */
+
 .project-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -383,6 +393,8 @@ body p {
     line-height: 2;
         
     letter-spacing: 0.06em;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .project-text {
@@ -391,6 +403,8 @@ body p {
     line-height: 1.87;
         
     letter-spacing: 0.03em;
+    margin-top: 4px;
+    margin-bottom: 50px;
 }
 
 .page-footer a {

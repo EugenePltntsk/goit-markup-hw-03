@@ -7,12 +7,14 @@
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
     <!--Тут у нас Хедер-->
-    <body>
         <!-- Шапка сайта -->
         <header class="page-header">
     
@@ -22,8 +24,8 @@
                         <span class="accent-logo">Web</span>Studio
                     </a>
                     <ul class="site-nav list">
-                        <li><a href="index.html" class="link current">Студія</a></li>
-                        <li><a href="portfolio.html" class="link">Портфоліо</a></li>
+                        <li><a href="index.html" class="link">Студія</a></li>
+                        <li><a href="portfolio.html" class="link current">Портфоліо</a></li>
                         <li><a href="" class="link">Контакти</a></li>
     
                     </ul>
@@ -48,53 +50,60 @@
         на готовом сайте не отображался пользователю.
     -->
     
+    <div class="container">
 
-    <section class="section">
-
-
-
-    <h1 class="portfolio">Портфоліо</h1>
-
-    <!--Секция с портфолио-->
+      <section class="section">
+        
+        
+        
+            <!--<h1 class="portfolio">Портфоліо</h1>-->
+        
+            <!--Секция с портфолио-->
+        
+        
+        
+            <!--Список фильтров-->
+        
+            <ul class="filter-list list">
+                <li>
+                    <button type="button" class="button-filter">Все</button>
+                </li>
+        
+        
+                <li>
+                    <button type="button" class="button-filter">Веб-сайти</button>
+                </li>
+        
+        
+                <li>
+                    <button type="button" class="button-filter">Додатки</button>
+                </li>
+        
+        
+                <li>
+                    <button type="button" class="button-filter">Дизайн</button>
+                </li>
+        
+        
+                <li>
+                    <button type="button" class="button-filter">Маркетинг</button>
+                </li>
+        
+            </ul>
 
     
 
-        <!--Список фильтров-->
-
-        <ul class="filter-list">
-            <li> 
-                <button type="button" class="button-filter">Все</button>
-            </li>
-
-
-            <li>
-                <button type="button" class="button-filter">Веб-сайти</button>
-            </li>
-
-
-            <li>
-                <button type="button" class="button-filter">Додатки</button>
-            </li>
-
-
-            <li>
-                <button type="button" class="button-filter">Дизайн</button>
-            </li>
-
-
-            <li>
-                <button type="button" class="button-filter">Маркетинг</button>
-            </li>
-
-        </ul>
+    
 
 
         <!--Список с примерами работ в портфолио-->
 
+   
 
-        <ul class="project-list">
+
+        <ul class="project-list list">
             <li>
-                <a href="">
+                <a href="" class="project-item">
                     <img src="./images/first-image.jpg" alt="ноутбук с изображениями на экране" width="370">
                     <h2 class="project-title">Технокряк</h2>
                     <p class="project-text">Веб-сайт</p>
@@ -181,7 +190,9 @@
 
 
 
-    </section>
+      </section>
+    
+    </div>
 
     </main>
 
