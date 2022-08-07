@@ -22,7 +22,6 @@ body {
     font-family: Roboto, sans-serif;
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
-    width: 1600px;
 }
 
 body p {
@@ -33,6 +32,18 @@ body p {
 .header {
     background-color: var(--primary-bg-color);
     
+    
+}
+
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+    outline: 3px solid tomato;
 }
 
 
@@ -45,8 +56,7 @@ body p {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
-    
+        
     letter-spacing: 0.03em;
   
 }
@@ -56,7 +66,11 @@ body p {
 
 .page-header a {
     text-decoration: none;
+    background-color: var(--primary-bg-color);
 }
+
+
+
 
 /* Site nav */
 
@@ -87,6 +101,12 @@ body p {
     list-style: none;
 }
 
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 
 /* Contacts nav */
 
@@ -98,8 +118,11 @@ body p {
 
 }
 
+
+
 .contacts-nav .link {
     color: var(--primary-text-color);
+    
 }
 
 .contacts-nav .link:hover,
@@ -111,30 +134,49 @@ body p {
 
 .hero {
     background-color: var(--secondary-bg-color);
-    width: 1600px;
-    height: 600px;
+    text-align: center;
+    margin-bottom: 94px;
     
 }
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--white-text);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    /* or 136% */
-    
-    text-align: center;
+        
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 696px;  
+    padding-top: 200px;
+    
+    
+    
+    
 
 
    
 }
 
+.title {
+    margin-bottom: 10px;
+}
+
+.text {
+    margin: 0;
+}
+
+
+
 /* Button */
 
 .button {
+    
+    border: none;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
     cursor: pointer;
     color: var(--white-text);
     background-color: var(--accent-color);
@@ -142,12 +184,14 @@ body p {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    /* identical to box height, or 188% */
-
-
+    
     letter-spacing: 0.06em;
-    width: 216px;
-    height: 50px;
+    min-width: 216px;
+    text-align: center;
+    margin-bottom: 200px;
+    
+    
+   
 }
 
 
@@ -158,8 +202,7 @@ body p {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    /* identical to box height, or 162% */
-    
+        
     text-align: center;
     letter-spacing: 0.03em;
     border: 0;
@@ -183,9 +226,16 @@ body p {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    /* text-align: center; */
+   
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
+
+.section {
+    margin-bottom: 94px;
+}
+
+ 
 
 /* Features */
 
@@ -202,8 +252,7 @@ body p {
     
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
-    
+       
     letter-spacing: 0.03em;
 }
 
@@ -232,18 +281,15 @@ body p {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
-    
-    
+        
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .staff-list .text {
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
-    
-    
+        
     letter-spacing: 0.03em;
 }
 
@@ -254,14 +300,16 @@ body p {
 /* Footer */
 
 .footer-logo {
+    display: inline-block;
     color: var(--white-text);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
-    
+       
     letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    
 }
 
 .page-footer {
@@ -275,9 +323,9 @@ body p {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
-    
+       
     letter-spacing: 0.03em;
+    
    
     
 
@@ -295,12 +343,23 @@ body p {
 }
 
 .footer-nav .map {
+    display: inline-block;
     color: var(--white-text);
+    margin-bottom: 9px;
 }
 
 .footer-nav .phone,
 .footer-nav .email {
+    display: inline-block;
     color: var(--footer-contacts-color);
+}
+
+.footer-nav .email {
+    margin-bottom: 9px;
+}
+
+.footer-nav .phone {
+    margin-bottom: 60px;
 }
 
 .filter-list li {
@@ -322,8 +381,7 @@ body p {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    /* identical to box height, or 200% */
-    
+        
     letter-spacing: 0.06em;
 }
 
@@ -331,8 +389,7 @@ body p {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.87;
-    /* identical to box height, or 188% */
-    
+        
     letter-spacing: 0.03em;
 }
 
@@ -341,7 +398,7 @@ body p {
 }
 
 .page-footer {
-    height: 252px;
+    /* height: 252px; */
 }
 
 .address {
