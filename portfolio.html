@@ -21,7 +21,7 @@
   <body>
     <!--Тут у нас Хедер-->
     <!-- Шапка сайта -->
-     <header class="page-header">
+    <header class="page-header portfolio">
       <div class="container header-nav">
         <nav class="main-nav">
           <a href="./index.html" class="header-logo">
@@ -51,8 +51,8 @@
         на готовом сайте не отображался пользователю.
     -->
 
-      <div class="container">
-        <section class="section">
+      <section class="section">
+        <div class="container">
           <!--<h1 class="portfolio">Портфоліо</h1>-->
 
           <!--Секция с портфолио-->
@@ -60,120 +60,166 @@
           <!--Список фильтров-->
 
           <ul class="filter-list list">
-            <li>
-              <button type="button" class="button-filter">Все</button>
+            <li class="item">
+              <div class="filter-item">
+                <button type="button" class="button-filter">Все</button>
+              </div>
             </li>
 
-            <li>
-              <button type="button" class="button-filter">Веб-сайти</button>
+            <li class="item">
+              <div class="filter-item">
+                <button type="button" class="button-filter">Веб-сайти</button>
+              </div>
             </li>
 
-            <li>
-              <button type="button" class="button-filter">Додатки</button>
+            <li class="item">
+              <div class="filter-item">
+                <button type="button" class="button-filter">Додатки</button>
+              </div>
             </li>
 
-            <li>
-              <button type="button" class="button-filter">Дизайн</button>
+            <li class="item">
+              <div class="filter-item">
+                <button type="button" class="button-filter">Дизайн</button>
+              </div>
             </li>
 
-            <li>
-              <button type="button" class="button-filter">Маркетинг</button>
+            <li class="item">
+              <div class="filter-item">
+                <button type="button" class="button-filter">Маркетинг</button>
+              </div>
             </li>
           </ul>
 
           <!--Список с примерами работ в портфолио-->
 
           <ul class="project-list list">
-            <li>
-              <a href="" class="project-item">
-                <img
-                  src="./images/first-image.jpg"
-                  alt="ноутбук с изображениями на экране"
-                  width="370"
-                />
-                <h2 class="project-title">Технокряк</h2>
-                <p class="project-text">Веб-сайт</p>
-              </a>
+            <li class="item">
+              <div class="project">
+                <a href="" class="project-item">
+                  <img
+                    src="./images/first-image.jpg"
+                    alt="ноутбук с изображениями на экране"
+                    width="370"
+                  />
+                  <div class="project-info">
+                    <h2 class="project-title">Технокряк</h2>
+                    <p class="project-text">Веб-сайт</p>
+                  </div>
+                </a>
+              </div>
             </li>
 
-            <li>
-              <a href="">
-                <img src="./images/second-image.jpg" alt="баскетбол" width="370" />
-                <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
-                <p class="project-text">Дизайн</p>
-              </a>
+            <li class="item">
+              <div class="project">
+                <a href="">
+                  <img src="./images/second-image.jpg" alt="баскетбол" width="370" />
+                  <div class="project-info">
+                    <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="project-text">Дизайн</p>
+                  </div>
+                </a>
+              </div>
             </li>
 
-            <li>
-              <a href="">
-                <img src="./images/third-image.jpg" alt="логотив ресторана" width="370" />
-                <h2 class="project-title">Ресторан Seafood</h2>
-                <p class="project-text">Додаток</p>
-              </a>
+            <li class="item">
+              <div class="project">
+                <a href="">
+                  <img src="./images/third-image.jpg" alt="логотив ресторана" width="370" />
+                  <div class="project-info">
+                    <h2 class="project-title">Ресторан Seafood</h2>
+                    <p class="project-text">Додаток</p>
+                  </div>
+                </a>
+              </div>
             </li>
 
-            <li>
-              <a href="">
-                <img src="./images/fourth-image.jpg" alt="наушники" width="370" />
-                <h2 class="project-title">Проєкт Prime</h2>
-                <p class="project-text">Маркетинг</p>
-              </a>
+            <li class="item">
+              <div class="project">
+                <a href="">
+                  <img src="./images/fourth-image.jpg" alt="наушники" width="370" />
+                  <div class="project-info">
+                    <h2 class="project-title">Проєкт Prime</h2>
+                    <p class="project-text">Маркетинг</p>
+                  </div>
+                </a>
+              </div>
             </li>
 
-            <li>
-              <a href="">
-                <img src="./images/fifth-image.jpg" alt="две коробки" width="370" />
-                <h2 class="project-title">Проєкт Boxes</h2>
-                <p class="project-text">Додаток</p>
-              </a>
+            <li class="item">
+              <div class="project">
+                <a href="">
+                  <img src="./images/fifth-image.jpg" alt="две коробки" width="370" />
+                  <div class="project-info">
+                    <h2 class="project-title">Проєкт Boxes</h2>
+                    <p class="project-text">Додаток</p>
+                  </div>
+                </a>
+              </div>
             </li>
 
-            <li>
-              <a href="">
-                <img src="./images/sixth-image.jpg" alt="экран компьютера" width="370" />
-                <h2 class="project-title">Inspiration has no Borders</h2>
-                <p class="project-text">Веб-сайт</p>
-              </a>
+            <li class="item">
+              <div class="project">
+                <a href="">
+                  <img src="./images/sixth-image.jpg" alt="экран компьютера" width="370" />
+                  <div class="project-info">
+                    <h2 class="project-title">Inspiration has no Borders</h2>
+                    <p class="project-text">Веб-сайт</p>
+                  </div>
+                </a>
+              </div>
             </li>
 
-            <li>
-              <a href="">
-                <img
-                  src="./images/seventh-image.jpg"
-                  alt="раскрытый журнал с изображениями и текстом"
-                  width="370"
-                />
-                <h2 class="project-title">Видання Limited Edition</h2>
-                <p class="project-text">Дизайн</p>
-              </a>
+            <li class="item">
+              <div class="project">
+                <a href="">
+                  <img
+                    src="./images/seventh-image.jpg"
+                    alt="раскрытый журнал с изображениями и текстом"
+                    width="370"
+                  />
+                  <div class="project-info">
+                    <h2 class="project-title">Видання Limited Edition</h2>
+                    <p class="project-text">Дизайн</p>
+                  </div>
+                </a>
+              </div>
             </li>
 
-            <li>
-              <a href="">
-                <img
-                  src="./images/eighth-image.jpg"
-                  alt="логотип в виде бирки с названием проекта"
-                  width="370"
-                />
-                <h2 class="project-title">Проект LAB</h2>
-                <p class="project-text">Маркетинг</p>
-              </a>
+            <li class="item">
+              <div class="project">
+                <a href="">
+                  <img
+                    src="./images/eighth-image.jpg"
+                    alt="логотип в виде бирки с названием проекта"
+                    width="370"
+                  />
+                  <div class="project-info">
+                    <h2 class="project-title">Проект LAB</h2>
+                    <p class="project-text">Маркетинг</p>
+                  </div>
+                </a>
+              </div>
             </li>
 
-            <li>
-              <a href="">
-                <img
-                  src="./images/ninth-image.jpg"
-                  alt="работа за ноутбуком крупным планом"
-                  width="370"
-                />
-                <h2 class="project-title">Growing Business</h2>
-                <p class="project-text">Додаток</p>
-              </a>
+            <li class="item">
+              <div class="project">
+                <a href="">
+                  <img
+                    src="./images/ninth-image.jpg"
+                    alt="работа за ноутбуком крупным планом"
+                    width="370"
+                  />
+                  <div class="project-info">
+                    <h2 class="project-title">Growing Business</h2>
+                    <p class="project-text">Додаток</p>
+                  </div>
+                </a>
+              </div>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <!--Футер-->
